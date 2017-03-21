@@ -1,0 +1,11 @@
+box: maven # for more information: https://hub.docker.com/_/maven/
+
+build:
+  # The steps that will be executed on build
+  steps:
+    - script:
+        name: echo
+        code: |
+          echo "hello Wercker!"
+
+  
